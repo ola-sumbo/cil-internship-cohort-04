@@ -1,0 +1,73 @@
+﻿{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eee;
+}
+
+#nav {
+    list-style: none;
+    width: 1200px;
+    height: 50px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+    #nav li {
+        float: left;
+    }
+
+    #nav a {
+        float: left;
+        width: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        outline: 0;
+        margin-right: 4px;
+    }
+    /* Default State */
+    #nav #a {
+        background: url(C:\Users\sumbo\Desktop\my app2\cil-internship-cohort-04\about1);
+        background-repeat: no-repeat;
+        background-position: 0px -5px;
+    }
+
+    #nav #b {
+        background: url(images/menu.gif);
+        background-repeat: no-repeat;
+        background-position: 0px -9px;
+    }
+
+    #nav #c {
+        background: url(images/products.gif);
+        background-repeat: no-repeat;
+        background-position: 0px -7px;
+    }
+
+    #nav #d {
+        background: url(images/contactus.gif);
+        background-repeat: no-repeat;
+        background-position: 0px -7px;
+    }
+    /* Hover/Focus State */
+    #nav #a:hover {
+        background-position: -207px -5px;
+    }
+
+    #nav #b:hover {
+        background-position: -207px -9px;
+    }
+
+    #nav #c:hover {
+        background-position: -207px -7px;
+    }
+
+    #nav #d:hover {
+        background-position: -207px -7px;
+    }
+
+    #nav #e:hover {
+        background-position: -197px 5px;
+    }
